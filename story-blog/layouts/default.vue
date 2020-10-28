@@ -1,10 +1,21 @@
 <template>
   <div>
+    <TheHeader />
     <main class="main-content">
       <Nuxt />
     </main>
   </div>
 </template>
+
+<script>
+import TheHeader from '@/components/PageHeader/TheHeader'
+
+export default {
+  components: {
+    TheHeader
+  }
+}
+</script>
 
 <style>
   * {

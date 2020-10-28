@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8e2eb1-c4e2-4d61-94ed-c23a11a4a4d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/story-blog/components/TheHeader/TheHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/story-blog/pages/_postId/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/story-blog/pages/about/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/story-blog/components/TheHeader/TheHeader.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/story-blog/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/story-blog/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/story-blog/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/story-blog/nuxt.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
