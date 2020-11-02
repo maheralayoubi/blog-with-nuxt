@@ -21,6 +21,12 @@ export default {
         id: 'a-new-beginning'
         },
         {
+          title: 'A New Idea',
+          previewText: 'This will be great',
+          thumbnailUrl: 'http://cfjp.xsrv.jp/ess-demo/wp-content/uploads/2017/03/portfolio5.jpg',
+          id: 'a-new-beginning'
+        },
+        {
           title: 'A Second Idea',
           previewText: 'This will be great',
           thumbnailUrl: 'http://cfjp.xsrv.jp/ess-demo/wp-content/uploads/2017/03/portfolio5.jpg',
