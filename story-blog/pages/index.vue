@@ -1,25 +1,22 @@
 <template>
   <div class="container">
-    <nuxt-link
+    <PostPreview
       v-for="post in posts"
       :key="post.id"
-      :to="post.id">
-      <article class="post-preview">
-        <div
-          :style="{backgroundImage:post.thumbnailUrl}"
-          class="post-preview-thumbnail">
-        </div>
-        <div class="post-preview-content">
-          <h1>{{ post.title }}</h1>
-          <p>{{ post.previewText }}</p>
-        </div>
-      </article>
-    </nuxt-link>
+      :title="post.title"
+      :excerpt="post.previewText"
+      :thumbnailImage="post.thumbnailUrl"
+      :id="post.id"
+    />
   </div>
 </template>
 
 <script>
+import PostPreview from "@/components/Blog/PostPreview"
 export default {
+  components: {
+    PostPreview
+  },
   data() {
     return {
       posts: [
