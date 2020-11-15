@@ -47,7 +47,7 @@
     border-radius: 3px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
     width: 90%;
-    margin: auto;
+    margin: 1rem;
     height: 20rem;
   }
 
@@ -66,7 +66,6 @@
  @media (min-width: 35rem) {
    .post-preview {
      width: 24rem;
-     margin: 1rem;
    }
  }
 </style>
