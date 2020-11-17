@@ -30,7 +30,19 @@ export default {
           title: 'A Second Idea',
           previewText: 'This will be great',
           thumbnailUrl: 'http://cfjp.xsrv.jp/ess-demo/wp-content/uploads/2017/03/portfolio5.jpg',
+          id: 'a-third-beginning'
+        },
+        {
+          title: 'A Third Great Idea',
+          previewText: 'This will be great',
+          thumbnailUrl: 'http://cfjp.xsrv.jp/ess-demo/wp-content/uploads/2017/03/portfolio5.jpg',
           id: 'a-second-beginning'
+        },
+        {
+          title: 'Last Good Idea',
+          previewText: 'This will be great',
+          thumbnailUrl: 'http://cfjp.xsrv.jp/ess-demo/wp-content/uploads/2017/03/portfolio5.jpg',
+          id: 'a-last-beginning'
         }
       ]
     }
