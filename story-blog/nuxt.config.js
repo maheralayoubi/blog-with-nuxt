@@ -33,6 +33,10 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    [
+      'storyblok-nuxt',
+      {accessToken:'w9htt1R32nciSdrhvPSLGwtt', cacheProvider:'memory'}
+    ]
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
