@@ -19,12 +19,16 @@ export default {
   },
   asyncData(context) {
     return context.app.$storyapi
-      .get("cdn/stories/blog", {
-      version: "draft"
+      .get("cdn/stories", {
+      version: "draft",
+      start_with: 'blog/'
       })
       .then(res => {
       console.log(res);
-      return res;
+      return res.data.stories.map(bp => {
+        id: bp.slug,
+        title: bp.content.title,
+      });
       });
   }
 /*  data() {
