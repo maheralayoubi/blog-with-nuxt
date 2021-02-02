@@ -20,3 +20,13 @@ export default {
   }
 }
 </script>
+<style>
+#about-page {
+  width: 80%;
+  max-width: 300px;
+  margin: auto;
+}
+#about-page p {
+  white-space: pre-line;
+}
+</style>
