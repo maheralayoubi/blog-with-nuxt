@@ -3,18 +3,21 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/apple/Documents/GitHub/blog-with-nuxt/pages/about/index.vue",
-    "chunkName": "pages/about/index"
+    "chunkName": "pages/about/index",
+    "_name": "_7c9d348d"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/apple/Documents/GitHub/blog-with-nuxt/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_34034f62"
   },
   {
     "name": "postId",
     "path": "/:postId",
     "component": "/Users/apple/Documents/GitHub/blog-with-nuxt/pages/_postId/index.vue",
-    "chunkName": "pages/_postId/index"
+    "chunkName": "pages/_postId/index",
+    "_name": "_44a86e7a"
   }
 ]
